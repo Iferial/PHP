@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+    <style>
+        h1 {
+            color: blue;
+            text-decoration: underline;
+        }
+        label {
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="css.less3.css">
+</head>
+
+<body>
+<h1 style="color: blue; text-decoration: underline">My first HTML-form</h1>
+    <form method="get">
+        <label for="email" class="email-label">Email: </label>
+        <input id="email" name="email" type="email" required tabindex="1" placeholder="Введите E-mail"><br>
+
+        <label fot="password" class="password-label">Pswrd: </label>
+        <input id="password" name="password" type="password" tabindex="2"><br>
+
+        <input type="number" min="2" max="100"><br>
+
+        <label>
+            <input type="checkbox">
+            Подписаться на рассылку
+        </label><br>
+
+        <input type="color" value="#c7341f">
+
+        <input type="date" tabindex="3">
+
+        <input type="file"><br>
+        <span class="email-label">Хотите получать подарки:</span>
+    <label>
+        <input type="radio" name="gift" value="1"> Да
+    </label>
+        <label>
+            <input type="radio" name="gift" value="2"> Нет
+        </label>
+        <label>
+            <input type="radio" name="gift" value="3"> Не знаю
+        </label><br>
+
+        <input type="month"><br>
+
+        <input type="range" min="5" max="50"><br>
+
+        <input type="search">
+
+        <input type="tel"><br>
+
+        <input type="submit"> <input type="reset">
+
+        <button type="button"><strong>text</strong></button><br>
+
+        <textarea name="text" cols="50" rows="5" placeholder="Описание">hdfhs gsdf gsdfg sdg
+         fhsfhdfh shfdhsdfh</textarea><br>
+
+        <select name="city">
+            <option>Dnipro</option>
+            <option selected>Kiev</option>
+            <option>L`viv</option>
+        </select><br>
+
+    </form>
+</body>
+
+</html>
