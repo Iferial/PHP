@@ -60,6 +60,6 @@
      }
      else
      {
-         window.location= "http://localhost:63342/PHP/calc.html?_ijt=u33375srs20ls9bouhptuom4cv";
+         window.location= "";
      }
  }
