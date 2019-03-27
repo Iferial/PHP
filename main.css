@@ -1,0 +1,10 @@
+label {
+    width: 120px;
+    display: inline-block;
+}
+.row {
+    margin-bottom: 10px;
+}
+button {
+    width: 120px;
+}
